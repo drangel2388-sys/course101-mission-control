@@ -1,0 +1,440 @@
+{
+ "version": 2,
+ "source_last_line": 1030,
+ "source_last_ts": "Oct 28 08:09 PT",
+ "manifest": "04_FILE_SHA256_MANIFEST_r15.json",
+ "work_tasks": 98,
+ "stages_done": 3,
+ "stages_total": 7,
+ "stages": [
+  [
+   "Plan",
+   "done",
+   "Goal, 1,189 h, AI-heavy / DEC-35..38"
+  ],
+  [
+   "Lab / board",
+   "done",
+   "Simulated Nucleo-F767ZI / DEC-39/40"
+  ],
+  [
+   "Grader",
+   "done",
+   "Installed + D06 verified / DEC-41"
+  ],
+  [
+   "Units",
+   "active",
+   "3 unit(s) authored, review pending"
+  ],
+  [
+   "Grading on",
+   "active",
+   "Policy adoption running / DEC-42/43"
+  ],
+  [
+   "Placement / tests",
+   "todo",
+   "After full course is built / DEC-34"
+  ],
+  [
+   "Learner starts",
+   "todo",
+   "After everything above"
+  ]
+ ],
+ "cats": [
+  {
+   "name": "Curriculum",
+   "made": [
+    [
+     "1,189 h required, 240 h AI, peak 17.5 h/week",
+     "LEDG-0092 v0.3"
+    ],
+    [
+     "W1-W23 base: 345 h (10 h AI labs)",
+     "A01"
+    ],
+    [
+     "W24-W39: 240 h base + 40 h language-model block",
+     "A02/A03"
+    ],
+    [
+     "W40-W48: 129 h",
+     "A04/A05"
+    ],
+    [
+     "After W48: 435 h math, embedded, sensors/PCB, edge AI, capstone",
+     "B01-B09"
+    ],
+    [
+     "Optional: fine-tuning 10 h, money-with-AI 5-10 h",
+     "O01/O02"
+    ]
+   ],
+   "left": [
+    [
+     "Ledger open items",
+     "L1e, L1f"
+    ],
+    [
+     "Ledger still a candidate, not installed",
+     "LEDG-0092"
+    ]
+   ]
+  },
+  {
+   "name": "Device units",
+   "made": [
+    [
+     "Your first firmware (UART + GPIO), 6 h: reviewed: accept with conditions",
+     "DEV1-0095"
+    ],
+    [
+     "Thermostat (ADC, PWM, I2C), 9 h: fixes r2 awaiting review (submitted Oct 28 08:07 PT)",
+     "DEV2-0097"
+    ],
+    [
+     "Harder AI unit authored in 8 min: awaiting review (submitted Oct 28 08:07 PT)",
+     "AI3-0101"
+    ]
+   ],
+   "left": [
+    [
+     "Independent review of new submissions",
+     "D06"
+    ],
+    [
+     "All remaining units in the 1,189 h plan",
+     "ledger"
+    ]
+   ]
+  },
+  {
+   "name": "AI content",
+   "made": [
+    [
+     "240 h AI in plan (+200 h approved)",
+     "DEC-38"
+    ],
+    [
+     "Language-model block starts W24",
+     "DEC-38"
+    ],
+    [
+     "TFLM hello_world runs on simulated F767",
+     "TFLM-0091"
+    ],
+    [
+     "TFLM person-detect runs on simulated F767",
+     "TFLM-0093"
+    ],
+    [
+     "First AI unit authored, awaiting review",
+     "AI3-0101"
+    ]
+   ],
+   "left": [
+    [
+     "Person-detect open items",
+     "T6 T7 T10 T11"
+    ],
+    [
+     "AI-2 waits for G8 retest",
+     "L980"
+    ]
+   ]
+  },
+  {
+   "name": "Lab tools",
+   "made": [
+    [
+     "Renode 1.17.0 + Arm GNU 14.2 pinned",
+     "f1dd1b4af"
+    ],
+    [
+     "Board v3: 512 KB SRAM, matches real chip",
+     "a55961a3"
+    ],
+    [
+     "Lab safety checker, 50/50 tests pass",
+     "lint v2.1"
+    ],
+    [
+     "Sensor overlays + allowlist installed",
+     "DEC-41"
+    ],
+    [
+     "Current manifest r15: 151 files",
+     "04_FILE_SHA256_MANIFEST_r15.json"
+    ]
+   ],
+   "left": [
+    [
+     "PWM open items",
+     "K2-K5"
+    ],
+    [
+     "Checker next: run-time cap, output-name rule",
+     "lint next"
+    ]
+   ]
+  },
+  {
+   "name": "Grading",
+   "made": [
+    [
+     "Auto-grader installed and verified by D06",
+     "DEC-41 / L1024"
+    ],
+    [
+     "11-rule grading policy accepted by reviewer",
+     "DEC-33"
+    ],
+    [
+     "Attempt reviewers: ChatGPT + Raava, labeled AI-reviewed",
+     "DEC-43"
+    ],
+    [
+     "Records location: course101/records/",
+     "L1023"
+    ],
+    [
+     "Validator v1.5 leak check authored: awaiting review (submitted Oct 28 08:07 PT)",
+     "VAL15-0100"
+    ],
+    [
+     "AI-reviewer policy amendment authored: awaiting review (submitted Oct 28 08:07 PT)",
+     "POL-0081"
+    ]
+   ],
+   "left": [
+    [
+     "Grades practice-only until policy adopted",
+     "R6"
+    ],
+    [
+     "Independent review of leak check + amendment",
+     "D06"
+    ],
+    [
+     "Grader v0.2",
+     "GRADE"
+    ]
+   ]
+  },
+  {
+   "name": "Reading",
+   "made": [
+    [
+     "Link map: 56 links, 10 flagged, 6 dropped",
+     "v1.0"
+    ],
+    [
+     "Sites with own terms are link-only",
+     "rule"
+    ]
+   ],
+   "left": [
+    [
+     "Browser check: ST, Arm, Silicon Labs",
+     "links"
+    ]
+   ]
+  },
+  {
+   "name": "Campus",
+   "made": [],
+   "left": [
+    [
+     "V10 campus upload",
+     "V10"
+    ]
+   ]
+  },
+  {
+   "name": "Blockers",
+   "made": [],
+   "left": [
+    [
+     "Grading policy adoption waits on D06 review of leak check + amendment",
+     "POL-0081"
+    ],
+    [
+     "Registry re-pin",
+     "REG"
+    ],
+    [
+     "Placement question revision",
+     "EXQ-003"
+    ]
+   ]
+  },
+  {
+   "name": "Your calls",
+   "made": [
+    [
+     "Reviewers chosen: ChatGPT + Raava",
+     "DEC-43"
+    ]
+   ],
+   "left": [
+    [
+     "Nothing waiting on you right now",
+     "-"
+    ]
+   ]
+  }
+ ],
+ "timeline": [
+  [
+   "Oct 27 12:56",
+   "DEC-33",
+   "Adopt all 11 grading rules as recommended"
+  ],
+  [
+   "Oct 27 13:03",
+   "DEC-34",
+   "No placement testing until full course is built"
+  ],
+  [
+   "Oct 27 13:10",
+   "DEC-35",
+   "Lean, goal-direct course: real devices"
+  ],
+  [
+   "Oct 27 13:27",
+   "DEC-36",
+   "Simulator-only required work; goal approved"
+  ],
+  [
+   "Oct 27 13:36",
+   "DEC-35a",
+   "End level = first year of device engineering"
+  ],
+  [
+   "Oct 27 13:39",
+   "DEC-37",
+   "Make the course very AI-heavy"
+  ],
+  [
+   "Oct 27 14:29",
+   "DEC-38",
+   "+200 h AI, LLM block at W24, optional money block"
+  ],
+  [
+   "Oct 27 14:51",
+   "DEC-39",
+   "Required board = simulated Nucleo-F767ZI"
+  ],
+  [
+   "Oct 27 17:38",
+   "DEC-40",
+   "Install board v3, lab template, checker"
+  ],
+  [
+   "Oct 27 19:09",
+   "DEC-41",
+   "Install auto-grader, overlays, checker v2/v2.1"
+  ],
+  [
+   "Oct 28 07:49",
+   "DEC-42",
+   "Adopt recommended grading policy; start next round"
+  ],
+  [
+   "Oct 28 07:52",
+   "L1024",
+   "D06 verifies the DEC-41 install (accepted w/ conditions)"
+  ],
+  [
+   "Oct 28 07:57",
+   "DEC-43",
+   "Reviewers = ChatGPT + Raava; grades labeled AI-reviewed"
+  ]
+ ],
+ "alert": "Grades are practice-only until the grading policy is adopted.",
+ "alert_detail": "Adoption round is running (DEC-42). Leak check and AI-reviewer amendment are authored and wait on independent D06 review.",
+ "feed": [
+  {
+   "ts": "2026-10-28T08:09:41.481279-07:00",
+   "actor": "D00",
+   "event": "RULING",
+   "line": 1030,
+   "when": "Oct 28 08:09 PT"
+  },
+  {
+   "ts": "2026-10-28T08:07:50.226436-07:00",
+   "actor": "D01",
+   "event": "AUTHOR_SUBMIT",
+   "task": "C101-POL-0081+C101-FBK-0033",
+   "line": 1029,
+   "when": "Oct 28 08:07 PT"
+  },
+  {
+   "ts": "2026-10-28T08:07:50.226436-07:00",
+   "actor": "D01",
+   "event": "AUTHOR_SUBMIT",
+   "task": "C101-AI3-0101",
+   "line": 1028,
+   "when": "Oct 28 08:07 PT"
+  },
+  {
+   "ts": "2026-10-28T08:07:50.226436-07:00",
+   "actor": "D01",
+   "event": "AUTHOR_SUBMIT",
+   "task": "C101-VAL15-0100",
+   "line": 1027,
+   "when": "Oct 28 08:07 PT"
+  },
+  {
+   "ts": "2026-10-28T08:07:50.226436-07:00",
+   "actor": "D01",
+   "event": "AUTHOR_SUBMIT",
+   "task": "C101-DEV2-0097",
+   "revision": 2,
+   "line": 1026,
+   "when": "Oct 28 08:07 PT"
+  },
+  {
+   "ts": "2026-10-28T07:57:27.775227-07:00",
+   "actor": "D00",
+   "event": "DECISION",
+   "id": "DEC-43",
+   "line": 1025,
+   "when": "Oct 28 07:57 PT"
+  },
+  {
+   "ts": "2026-10-28T07:52:11-07:00",
+   "actor": "D06",
+   "event": "INSTALL_VERIFY",
+   "task": "C101-INST15-0099",
+   "verdict": "ACCEPT_WITH_CONDITIONS",
+   "line": 1024,
+   "when": "Oct 28 07:52 PT"
+  },
+  {
+   "ts": "2026-10-28T07:51:44.802545-07:00",
+   "actor": "D00",
+   "event": "D00_RULING",
+   "task": "C101-POL-0081",
+   "line": 1023,
+   "when": "Oct 28 07:51 PT"
+  },
+  {
+   "ts": "2026-10-28T07:50:26.791288-07:00",
+   "actor": "WORKER",
+   "event": "HOLD",
+   "line": 1022,
+   "when": "Oct 28 07:50 PT"
+  },
+  {
+   "ts": "2026-10-28T07:49:43.241244-07:00",
+   "actor": "D00",
+   "event": "DECISION",
+   "id": "DEC-42",
+   "line": 1021,
+   "when": "Oct 28 07:49 PT"
+  }
+ ]
+}
