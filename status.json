@@ -1,9 +1,9 @@
 {
  "version": 2,
- "source_last_line": 1110,
- "source_last_ts": "Oct 28 12:37 PT",
- "manifest": "04_FILE_SHA256_MANIFEST_r15.json",
- "work_tasks": 108,
+ "source_last_line": 1161,
+ "source_last_ts": "Nov 04 08:49 PT",
+ "manifest": "04_FILE_SHA256_MANIFEST_r16.json",
+ "work_tasks": 111,
  "stages_done": 3,
  "stages_total": 7,
  "stages": [
@@ -165,8 +165,8 @@
      "DEC-41"
     ],
     [
-     "Current manifest r15: 151 files",
-     "04_FILE_SHA256_MANIFEST_r15.json"
+     "Current manifest r16: 181 files",
+     "04_FILE_SHA256_MANIFEST_r16.json"
     ]
    ],
    "left": [
@@ -361,99 +361,163 @@
    "Oct 28 08:57",
    "DEC-45",
    "Decision logged"
+  ],
+  [
+   "Nov 04 06:34",
+   "DEC-46",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 06:34",
+   "DEC-47",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 06:34",
+   "DEC-48",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 06:34",
+   "DEC-49",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 06:34",
+   "DEC-50",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 06:34",
+   "DEC-51",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 06:34",
+   "DEC-52",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 07:43",
+   "DEC-53",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 07:55",
+   "DEC-54",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 07:55",
+   "DEC-55",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 07:55",
+   "DEC-56",
+   "Decision logged"
+  ],
+  [
+   "Nov 04 08:37",
+   "DEC-57",
+   "Decision logged"
   ]
  ],
  "alert": "Grades are practice-only until the grading policy is adopted.",
  "alert_detail": "Adoption round is running (DEC-42). Leak check and AI-reviewer amendment are authored and wait on independent D06 review.",
  "feed": [
   {
-   "ts": "2026-10-28T12:37:49.568832-07:00",
-   "actor": "D00",
-   "event": "INSTALL_HOLD",
-   "task": "C101-INST-0107",
-   "revision": "r1",
-   "line": 1110,
-   "when": "Oct 28 12:37 PT"
+   "ts": "2026-11-04T08:49:51-08:00",
+   "actor": "D01",
+   "event": "AUTHOR_DONE",
+   "task": "C101-EG3FIX-0113",
+   "line": 1161,
+   "when": "Nov 04 08:49 PT"
   },
   {
-   "ts": "2026-10-28T12:36:52.119888-07:00",
-   "actor": "D00",
-   "event": "ERRATA",
-   "line": 1109,
-   "when": "Oct 28 12:36 PT"
-  },
-  {
-   "ts": "2026-10-28T12:36:41.382716-07:00",
-   "actor": "D00",
-   "event": "ERRATA",
-   "task": "C101-PIN-0104",
-   "line": 1108,
-   "when": "Oct 28 12:36 PT"
-  },
-  {
-   "ts": "2026-10-28T12:34:17-07:00",
+   "ts": "2026-11-04T08:48:16.279786-08:00",
    "actor": "D06",
    "event": "QA_VERDICT",
-   "task": "C101-INST-0107",
+   "task": "C101-EG3FIX-0113",
+   "verdict": "ACCEPT WITH CONDITIONS",
+   "line": 1160,
+   "when": "Nov 04 08:48 PT"
+  },
+  {
+   "ts": "2026-11-04T08:43:57.225890-08:00",
+   "actor": "D01",
+   "event": "AUTHOR_DONE",
+   "task": "C101-EG3FIX-0113",
+   "line": 1159,
+   "when": "Nov 04 08:43 PT"
+  },
+  {
+   "ts": "2026-11-04T08:37:50.123947-08:00",
+   "actor": "D00",
+   "event": "DECISION",
+   "task": "C101-UNITS-0111",
+   "id": "DEC-57",
+   "line": 1158,
+   "when": "Nov 04 08:37 PT"
+  },
+  {
+   "ts": "2026-11-04T08:32:35.759644-08:00",
+   "actor": "D06",
+   "event": "QA_VERDICT",
+   "task": "C101-UNITS-0111",
+   "verdict": "REJECT_ESCALATE_D00",
+   "revision": "r2",
+   "line": 1157,
+   "when": "Nov 04 08:32 PT"
+  },
+  {
+   "ts": "2026-11-04T08:32:27.374423-08:00",
+   "actor": "D06",
+   "event": "QA_VERDICT",
+   "task": "C101-UNITS-0112",
    "verdict": "ACCEPT_WITH_CONDITIONS",
    "revision": "r1",
-   "line": 1107,
-   "when": "Oct 28 12:34 PT"
+   "line": 1156,
+   "when": "Nov 04 08:32 PT"
   },
   {
-   "ts": "2026-10-28T12:34:17-07:00",
-   "actor": "D06",
-   "event": "QA_VERDICT",
-   "task": "C101-PIN-0104",
-   "verdict": "PASS_WITH_CONDITIONS",
-   "line": 1106,
-   "when": "Oct 28 12:34 PT"
-  },
-  {
-   "ts": "2026-10-28T12:30:26.909949-07:00",
+   "ts": "2026-11-04T08:30:53.686775-08:00",
    "actor": "D01",
    "event": "AUTHOR_SUBMIT",
-   "task": "C101-INST-0107",
+   "task": "C101-UNITS-0112",
    "revision": "r1",
-   "line": 1105,
-   "when": "Oct 28 12:30 PT"
+   "line": 1155,
+   "when": "Nov 04 08:30 PT"
   },
   {
-   "ts": "2026-10-28T12:30:26.909949-07:00",
-   "actor": "D01",
-   "event": "AUTHOR_SUBMIT",
-   "task": "C101-PIN-0104",
-   "line": 1104,
-   "when": "Oct 28 12:30 PT"
-  },
-  {
-   "ts": "2026-10-28T11:32:40-07:00",
+   "ts": "2026-11-04T08:25:13.575599-08:00",
    "actor": "D06",
    "event": "QA_VERDICT",
-   "task": "C101-UNITS-0110",
+   "task": "C101-UNITS-0112",
    "verdict": "ACCEPT_WITH_CONDITIONS",
    "revision": "r0",
-   "line": 1103,
-   "when": "Oct 28 11:32 PT"
+   "line": 1154,
+   "when": "Nov 04 08:25 PT"
   },
   {
-   "ts": "2026-10-28T11:32:40-07:00",
+   "ts": "2026-11-04T08:25:13.575599-08:00",
    "actor": "D06",
    "event": "QA_VERDICT",
-   "task": "C101-UNITS-0109",
-   "verdict": "PASS",
-   "revision": "r1",
-   "line": 1102,
-   "when": "Oct 28 11:32 PT"
+   "task": "C101-UNITS-0112",
+   "verdict": "ACCEPT",
+   "revision": "r0",
+   "line": 1153,
+   "when": "Nov 04 08:25 PT"
   },
   {
-   "ts": "2026-10-28T11:30:38.453483-07:00",
-   "actor": "D01",
-   "event": "AUTHOR_SUBMIT",
-   "task": "C101-UNITS-0110",
+   "ts": "2026-11-04T08:25:13.575599-08:00",
+   "actor": "D06",
+   "event": "QA_VERDICT",
+   "task": "C101-UNITS-0112",
+   "verdict": "ACCEPT",
    "revision": "r0",
-   "line": 1101,
-   "when": "Oct 28 11:30 PT"
+   "line": 1152,
+   "when": "Nov 04 08:25 PT"
   }
  ]
 }
